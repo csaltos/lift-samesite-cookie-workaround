@@ -25,6 +25,7 @@ libraryDependencies ++= {
     "net.liftweb"       %% "lift-webkit"            % liftVersion,
     "net.liftweb"       %% "lift-mapper"            % liftVersion,
     "net.liftmodules"   %% s"lift-jquery-module_$liftEdition" % "2.10",
+    "io.netty"          % "netty-codec-http"        % "4.1.59.Final",
     "ch.qos.logback"    % "logback-classic"         % "1.2.3",
     "org.specs2"        %% "specs2-core"            % "3.9.4"            % "test",
     "com.h2database"    % "h2"                      % "1.4.187",
